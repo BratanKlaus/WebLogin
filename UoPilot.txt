@@ -1,0 +1,32 @@
+//web     sed
+set $hackenW FindColor (724 651 747 672   1 1 16777215   %arr1 2)
+set $hackenS FindColor (724 651 747 672   1 1 5611008   %arr2 2)
+set $man FindColor (767 748 1018 909   1 1 6336039  %arr3 2)
+set $manW FindColor (767 748 1018 909   1 1 6336039  %arr4 2)
+set $mm FindColor (763 736 928 784   1 1 4431871  %arr4 2)
+set $w FindColor (763 335 1160 908   1 1 16777215  %arr4 2)
+//wait 6000
+
+
+if  $hackenW >0
+   left 733, 652
+end_if
+wait 1000
+if $mm >0
+        left 795, 785
+        wait 100
+        left 876, 771
+
+end_if
+if $man >0 && $hackenW=0
+    left 883, 888
+end_if
+
+
+if $hackenS > 0
+ left 934, 762
+end_if
+
+
+
+
